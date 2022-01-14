@@ -1,0 +1,194 @@
+
+/*------------------------
+       Header section
+------------------------ */
+header{
+    width: 80%;
+    margin: 0 auto;
+    height: 36px;
+    background-color: pink;
+}
+.logo{
+    font-size: 24px;
+}
+
+/*==========================
+        main sectation 
+ ===========================*/
+main{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.title{
+    font-size: 52px;
+}
+.pragraph{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.order-button{
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    margin-top: 16px;
+    border-radius: 50px;
+    color: wheat;
+    margin-top: 50px;
+}
+.image{
+    margin-left: 55px;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+hr{
+    border: 1px solid rgb(177, 177, 177)
+}
+
+/*======================
+        add section
+======================== */
+.add{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 25px;
+    
+}
+
+/* ====================
+    gallery section 
+======================= */
+.gallery{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery-title{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 70px;
+}
+/* card */
+.product{
+    width: 320px;
+    height: 476px;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888; 
+    border-radius: 7px; 
+}
+.informataion{
+    margin: 10px;
+}
+.product img{
+    margin: 10px;
+}
+.name{
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+.price{
+    font-size: 24px;
+    margin: 12px 0;
+}
+.reating{
+    color: gray;
+    font-size: 14px;
+    margin-left: 9px;
+}
+.star{
+    color: #FB8200;
+}
+.blank{
+    color: gray;
+}
+.description{
+    margin: 0;
+}
+
+/* grid section  */
+
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 25px;
+    margin-bottom: 30px;
+}
+.see-more{
+    text-decoration: none;
+    margin-top: 60px;
+    font-size: 20px;
+    color: #E02C6D;
+}
+.see-more-button{
+    text-align: right;
+    margin-right: 70px;
+    margin-top: 70px;
+}
+
+
+/*========================= 
+        footer section  
+===========================*/
+.footer-box{
+    text-align: center;
+    background-color: rgb(3, 3, 46);
+    padding: 40px;
+    margin-top: 60px;
+}
+.icon{
+    font-size: 32px;
+    margin: 10px;
+    color: white;
+}
+.footer-text{
+    color: wheat;
+}
+.footer-title{
+    color: wheat;
+}
+
+/* =============================
+        responsive area 
+================================ */
+
+@media (max-width:1200px){
+    .popular-collection{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:930px){
+    main{
+        display: block;
+    }
+    .add{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (max-width:900px){
+    .popular-collection{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width:600px){
+    .add{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:1200px)
+@media (max-width:1200px)
