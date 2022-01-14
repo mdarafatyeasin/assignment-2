@@ -162,33 +162,28 @@ hr{
 @media (max-width:1200px){
     .popular-collection{
         grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
     }
 }
 @media (max-width:930px){
     main{
         display: block;
+        margin: 0 auto;
     }
     .add{
         grid-template-columns: repeat(4, 1fr);
+        margin: 0 auto;
     }
 }
 @media (max-width:900px){
     .popular-collection{
         grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
     }
 }
 @media (max-width:600px){
     .add{
         grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
     }
 }
-
-
-
-
-
-
-
-
-@media (max-width:1200px)
-@media (max-width:1200px)
