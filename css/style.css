@@ -51,6 +51,9 @@ main{
     color: wheat;
     margin-top: 50px;
 }
+.arrow{
+    font-size: 16px;
+}
 .image{
     margin-left: 55px;
     /* background-image: url(../images/Circle\ design.svg);
