@@ -43,8 +43,8 @@ main{
 }
 .image{
     margin-left: 55px;
-    background-image: url(../images/Circle\ design.svg);
-    background-repeat: no-repeat;
+    /* background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat; */
     background-size: 100% 100%;
 }
 hr{
@@ -120,6 +120,7 @@ hr{
     grid-template-columns: repeat(3, 1fr);
     row-gap: 25px;
     margin-bottom: 30px;
+    justify-content: center;
 }
 .see-more{
     text-decoration: none;
@@ -159,10 +160,16 @@ hr{
         responsive area 
 ================================ */
 
-@media (max-width:1200px){
+@media (max-width:1380px){
     .popular-collection{
         grid-template-columns: repeat(2, 1fr);
     }
+    .product{
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
 }
 @media (max-width:930px){
     main{
@@ -181,9 +188,15 @@ hr{
     width: auto;
     margin: 0 auto;
     }
+    
 }
 @media (max-width:600px){
     .add{
         grid-template-columns: repeat(3, 1fr);       
+    }
+    .image img{
+        width: 202px;
+        height: 190px;
+        margin-top: 20px;
     }
 }
